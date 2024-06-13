@@ -1,0 +1,14 @@
+{
+  "name": "price-provider",
+  "version": "1.0.0",
+  "description": "this would be the services that provide stock related info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fugle/marketdata": "^1.1.0"
+  }
+}
