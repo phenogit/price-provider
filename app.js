@@ -13,7 +13,7 @@ app.get("/", async (req, res) => {
 
   //stock.intraday.quote({ symbol: "2330" }).then((data) => console.log(data));
   const stockData = await stock.intraday.quote({ symbol: "2330" });
-  res.send(stockData);
+  res.json(stockData);
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
