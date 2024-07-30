@@ -11,8 +11,9 @@ app.get("/", async (req, res) => {
   });
   const stock = client.stock;
 
-  //stock.intraday.quote({ symbol: "2330" }).then((data) => console.log(data));
-  const stockData = await stock.intraday.quote({ symbol: "2330" });
+  let stockId = req.query.stockId;
+
+  const stockData = await stock.intraday.quote({ symbol: stockId });
   res.json(stockData);
 });
 
