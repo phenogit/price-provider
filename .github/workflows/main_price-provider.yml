@@ -59,4 +59,4 @@ jobs:
           app-name: "price-provider"
           slot-name: "Production"
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8E12E4582D614C0C9E34D24DC7DF6411 }}
+          # blish-profile: ${{ secrets.AZAZUREAPPSERVICE_PUBLISHPROFILE_8E12E4582D614C0C9E34D24DC7DF6411BLISHPROFILE_8E12E4582D614C0C9E34D24DC7DF6411 }}
